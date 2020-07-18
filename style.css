@@ -1,0 +1,66 @@
+body {
+  background-color: #333;
+  color: #ffffff; }
+
+.navbar {
+  border-bottom: 3px solid #008ed6;
+  background: #292b2c;
+  opacity: 0.8; }
+
+#home-section {
+  background-image: url("../Image/home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 650px; }
+  #home-section .home-inner {
+    padding-top: 150px;
+    padding-bottom: 50px; }
+  #home-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    min-height: 650px; }
+  #home-section .fas {
+    background-color: #ffffff;
+    color: #008ed6;
+    padding: 4px;
+    font-size: 30px;
+    border-radius: 5px; }
+  #home-section .card-signup {
+    opacity: 0.8; }
+
+#explore-main-section .fas {
+  background-color: #292b2c;
+  color: #ffffff;
+  padding: 4px;
+  font-size: 30px;
+  border-radius: 5px; }
+
+#create-main-section .fas {
+  background-color: #ffffff;
+  color: #008ed6;
+  padding: 4px;
+  font-size: 30px;
+  border-radius: 5px; }
+
+#share-main-section .fas {
+  background-color: #333;
+  color: #ffffff;
+  padding: 4px;
+  font-size: 30px;
+  border-radius: 5px; }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  #home-section h2 {
+    font-size: 40px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #explore-main-section img {
+    height: 460px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #create-main-section img {
+    height: 460px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #share-main-section img {
+    height: 460px; } }
